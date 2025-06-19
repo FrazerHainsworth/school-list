@@ -1,0 +1,30 @@
+.data-table-container {
+  margin-top: 20px;
+}
+
+.ant-table {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.ant-table-cell {
+  font-size: 12px !important;
+  max-width: 60px;
+  padding: 16px 6px !important;
+}
+
+.ant-table-cell:nth-child(14) {
+  display: none !important;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-table-wrapper .ant-table-container table>thead>tr:first-child>*:first-child {
+  border-start-start-radius: 17px !important;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-pagination .ant-pagination-item-active {
+  background-color: #1677ff !important;
+  color: white !important;
+}
+
+:where(.css-dev-only-do-not-override-amq5gd).ant-pagination .ant-pagination-item-active a {
+  color: white !important;
+}

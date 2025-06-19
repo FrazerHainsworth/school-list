@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  flex-wrap: wrap;
+  margin: 23px 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 23px;
+}
+
+.header .search {
+  width: 100%;
+  max-width: 600px;
+}
+
+.header .search .ant-input-affix-wrapper {
+  border-top-left-radius: 23px !important;
+  border-bottom-left-radius: 23px !important;
+  background-color: rgba(245, 247, 255, 0.4) !important;
+  height: 45px !important;
+}
+
+.header .search .ant-input-group-addon button {
+  border-top-right-radius: 23px !important;
+  border-bottom-right-radius: 23px !important;
+  background-color: rgba(245, 247, 255, 0.4) !important;
+  height: 45px !important;
+  width: 45px !important;
+}

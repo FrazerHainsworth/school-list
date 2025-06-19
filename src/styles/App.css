@@ -1,0 +1,25 @@
+.App {
+  overflow-x: hidden !important;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.status-active {
+  color: #52c41a;
+  font-weight: 500;
+}
+
+.status-inactive {
+  color: #ff4d4f;
+  font-weight: 500;
+}
+
+.status-pending {
+  color: #faad14;
+  font-weight: 500;
+}
+
+.status-on-leave {
+  color: #722ed1;
+  font-weight: 500;
+}
